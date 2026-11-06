@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "",
+  "version": "",
+  "status": "draft",
+  "intent": {
+    "type": null,
+    "audience": "",
+    "developerCapabilityFocus": [],
+    "viewerTakeaway": "",
+    "task": "",
+    "completionCriteria": [],
+    "capabilityEvidence": []
+  },
+  "product": {
+    "tag": "",
+    "commit": "",
+    "platform": null,
+    "locale": "en",
+    "theme": "light",
+    "buildIdentity": null,
+    "versionVerification": {
+      "status": "pending",
+      "checkedAt": null,
+      "previousBaseline": null,
+      "changedDependencies": [],
+      "affectedComponents": [],
+      "evidence": []
+    },
+    "evidence": [],
+    "prerequisites": [],
+    "unknowns": []
+  },
+  "renderer": {
+    "adapterId": null,
+    "adapterVersion": null,
+    "entrypoint": null,
+    "outputDirectory": null,
+    "verifiedCapabilities": []
+  },
+  "nativeUi": {
+    "status": "pending",
+    "components": [],
+    "motionAdjustments": [],
+    "comparisonEvidence": []
+  },
+  "resources": [],
+  "sessions": [],
+  "content": [],
+  "operations": [],
+  "shots": [],
+  "captions": [],
+  "audio": {
+    "preferredStyles": [
+      "lo-fi",
+      "light-electronic"
+    ],
+    "targetBpmRange": [
+      100,
+      120
+    ],
+    "musicSource": null,
+    "licenseEvidence": null,
+    "musicDigest": null,
+    "actualBpm": null,
+    "firstBeatOffsetSeconds": null,
+    "measuredBeatTimesSeconds": [],
+    "alignNewOperationSegmentsToBeats": true,
+    "avoidIdenticalMusicAcrossFilms": true,
+    "soundEvents": []
+  },
+  "timeline": {
+    "fps": 60,
+    "timebase": "frames",
+    "compiled": false,
+    "digest": null,
+    "events": []
+  },
+  "checks": [],
+  "qualityPolicy": {
+    "maxRepairRounds": 2,
+    "onUnresolvedBlockingIssues": "hold_and_use_backup",
+    "requireApplicableChecksToPass": true
+  },
+  "delivery": {
+    "video": {
+      "width": 3840,
+      "height": 2880,
+      "fps": 60,
+      "path": null
+    },
+    "x": {
+      "title": "",
+      "body": "",
+      "publicationStatus": "unsent"
+    },
+    "xiaohongshu": {
+      "title": "",
+      "body": "",
+      "publicationStatus": "unsent"
+    }
+  },
+  "review": {
+    "status": "pending",
+    "issues": [],
+    "evidence": []
+  },
+  "adjustments": [],
+  "mobileDemo": null,
+  "framingPolicy": {
+    "reference": "references/camera.md",
+    "revision": "2026-11-06",
+    "aspectRatio": "4:3",
+    "mobileReviewWidths": [
+      320,
+      430
+    ],
+    "overviewFirst": true,
+    "fitWholeComponentsAndArtifacts": true,
+    "zoomOnlyWithReadabilityBenefit": true,
+    "lockCameraDuringKeyActions": true,
+    "uniformProductAndPortalScale": true,
+    "enlargeCursorAndVerifyHotspot": true,
+    "mergeSameRegionShots": true,
+    "requireHoldReasons": true,
+    "removeEmptyWaits": true
+  }
+}

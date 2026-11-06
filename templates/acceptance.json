@@ -1,0 +1,193 @@
+{
+  "case": "",
+  "version": "",
+  "approvedScript": {
+    "path": "",
+    "confirmation": ""
+  },
+  "inputs": {
+    "productCommit": "",
+    "componentDigest": "",
+    "sceneDigest": "",
+    "brandVersion": "",
+    "timelineDigest": "",
+    "caseLibrary": {
+      "caseId": "",
+      "ledgerSha256": "",
+      "packSha256": "",
+      "scriptPath": "",
+      "scriptSha256": ""
+    }
+  },
+  "output": {
+    "path": "",
+    "sha256": "",
+    "width": null,
+    "height": null,
+    "fps": null,
+    "frames": null,
+    "durationSeconds": null
+  },
+  "qualityGate": {
+    "status": "pending",
+    "requiredChecks": [
+      "functionalLogic",
+      "nativeFidelity",
+      "readabilityAndCaptions",
+      "motionAndPacing",
+      "audioAndSync",
+      "finalFileIntegrity",
+      "deliveryCompleteness"
+    ],
+    "checkResults": [],
+    "blockingIssues": [],
+    "eligibleForLibrary": false,
+    "decisionEvidence": []
+  },
+  "repairPolicy": {
+    "maxRounds": 2,
+    "completedRounds": 0,
+    "onExhausted": "hold_and_use_backup",
+    "history": [],
+    "resumeCheckpoint": null
+  },
+  "technical": {
+    "status": "pending",
+    "evidence": [],
+    "completeDecode": null,
+    "specifications": null,
+    "bodyMotion": null,
+    "cameraMotion": null,
+    "flashAndSeams": null,
+    "audioSync": null,
+    "loudnessLufs": null,
+    "truePeakDbtp": null
+  },
+  "nativeFidelity": {
+    "status": "pending",
+    "targetBuildIdentity": null,
+    "versionVerification": {
+      "status": "pending",
+      "checkedAt": null,
+      "previousBaseline": null,
+      "affectedComponents": [],
+      "evidence": []
+    },
+    "componentSources": [],
+    "appearance": {
+      "status": "pending",
+      "evidence": []
+    },
+    "interactionAndClickFeedback": {
+      "status": "pending",
+      "evidence": []
+    },
+    "motionAndStateTransitions": {
+      "status": "pending",
+      "evidence": []
+    },
+    "motionAdjustments": [],
+    "openIssues": []
+  },
+  "staticFrameReview": {
+    "status": "pending",
+    "reviewer": "",
+    "scope": [],
+    "evidence": []
+  },
+  "wholeFilmReview": {
+    "status": "pending",
+    "reviewer": "",
+    "scope": "",
+    "evidence": []
+  },
+  "humanListening": {
+    "status": "pending",
+    "reviewer": "",
+    "notes": ""
+  },
+  "interactivePackage": {
+    "status": "not_requested",
+    "standardPreview": null,
+    "extractedOffline": null,
+    "evidence": []
+  },
+  "realDeliverables": {
+    "status": "not_requested",
+    "paths": [],
+    "verification": []
+  },
+  "simulationScope": "",
+  "revision": {
+    "scope": "video",
+    "targetIds": [],
+    "sourceInstruction": "",
+    "rationale": "",
+    "appliesToFutureVideos": false,
+    "changed": [],
+    "reused": [],
+    "currentEvidence": [],
+    "historicalReferences": []
+  },
+  "userApproval": {
+    "status": "pending",
+    "confirmation": ""
+  },
+  "publication": {
+    "status": "not_requested",
+    "receipt": null
+  },
+  "openIssues": [],
+  "mobileDemo": {
+    "applicable": false,
+    "adapterId": null,
+    "surfaceKinds": [],
+    "frameworkRevision": null,
+    "runtimeSha256": null,
+    "bodyReports": [],
+    "sourceMode": null,
+    "nativeReferenceOnly": true,
+    "deviceFrameAndSafeArea": {
+      "status": "pending",
+      "evidence": []
+    },
+    "touchKeyboardSheetsAndMotion": {
+      "status": "pending",
+      "evidence": []
+    },
+    "effectiveSource60fps": {
+      "status": "pending",
+      "evidence": []
+    },
+    "mixedDeviceCausality": {
+      "status": "not_applicable",
+      "evidence": []
+    },
+    "localization": {
+      "en": "pending",
+      "zh-CN": "pending"
+    },
+    "openIssues": []
+  },
+  "framingAndPacing": {
+    "status": "pending",
+    "policyRevision": "2026-11-06",
+    "displayWidths": [
+      320,
+      430
+    ],
+    "overviewFirst": null,
+    "wholeComponentAndArtifactBounds": null,
+    "uniformPortalScale": null,
+    "cursorHotspotAndBounds": null,
+    "lockedKeyActions": null,
+    "shotReasons": [],
+    "holdReasons": [],
+    "removedEmptyWaits": [],
+    "normalSpeedReview": {
+      "status": "pending",
+      "evidence": []
+    },
+    "geometryEvidence": []
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "formatVersion": 1,
+  "packageVersion": "1.0.0",
+  "policyRevision": "2026-11-06",
+  "nativeSource": {
+    "repository": "https://github.com/makecindy/cindy",
+    "referenceCommit": "ac785430449042f120a296b881a25ae52333f1e1",
+    "note": "Reference version only; verify the target product version before each new feature."
+  },
+  "assets": [
+    {
+      "path": "assets/brand/CINDY-APACHE-LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "assets/brand/assets/brand/avatar.png",
+      "sha256": "322b52bbeede5e9edb5c1f49e24142c510386bcb733b8a5e9efddc51cdde7647"
+    },
+    {
+      "path": "assets/brand/assets/brand/icon.png",
+      "sha256": "bd2ba6074d010fc0682ebbd3a812a5d914a062401fd7e7423e518d5c15637989"
+    },
+    {
+      "path": "assets/brand/assets/brand/wordmark.svg",
+      "sha256": "3c317c5439e8d80b03a69c6ae4d1f9e5f2ebd59b32c351a1d3681cae5db84cda"
+    },
+    {
+      "path": "assets/brand/assets/fonts/OFL.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "assets/brand/assets/fonts/noto-sc-0.woff2",
+      "sha256": "07f8ac28a6c43e86b8b2d8378b9b2d812e574e8eefc5feda7f06ef8801f041da"
+    },
+    {
+      "path": "assets/brand/assets/fonts/noto-sc-1.woff2",
+      "sha256": "0d90f5a6e828fc2919a75e35c923d895a49b2f7e3ed69dd2cc054cf4aacd8747"
+    },
+    {
+      "path": "assets/brand/assets/fonts/noto-sc-2.woff2",
+      "sha256": "23f60e489f061befa1cd05ef51258de5c8535fae68b9ed3cd86ea754a18da4f3"
+    },
+    {
+      "path": "assets/brand/assets/fonts/noto-sc-3.woff2",
+      "sha256": "f5e3ff56d799ee43cd4bbac52f546c908a13af3c0e0b2cf66a1fbf3b4bc072d2"
+    },
+    {
+      "path": "assets/brand/assets/fonts/source.css",
+      "sha256": "15a8a904d91788d6fa38cc28c24643aad6fac62ab7778bd68cd7bebb55abaf5c"
+    },
+    {
+      "path": "assets/brand/assets/gsap.min.js",
+      "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    {
+      "path": "assets/brand/motion.js",
+      "sha256": "cb6adcafecc4e5db9cb262198c657d8a06e1ec58abf52d345044fe0c489a6451"
+    },
+    {
+      "path": "assets/brand/style.css",
+      "sha256": "0e835fc06af6e455a9b45d5cfd84b3a70d0bc6fb49f68e6c451895effcdbd506"
+    },
+    {
+      "path": "assets/runtime/camera.mjs",
+      "sha256": "5dc9441f924512e42b157e31dd4349c3eba4b49de539c5d95412cfc586d33551"
+    }
+  ]
+}

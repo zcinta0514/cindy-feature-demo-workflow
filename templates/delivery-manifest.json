@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "",
+  "title": "",
+  "version": "",
+  "acceptance": "验收记录.json",
+  "delivery": {
+    "video": {
+      "path": "视频-4K60.mp4",
+      "width": 3840,
+      "height": 2880,
+      "fps": 60
+    },
+    "x": {
+      "title": "",
+      "body": ""
+    },
+    "xiaohongshu": {
+      "title": "",
+      "body": ""
+    }
+  }
+}

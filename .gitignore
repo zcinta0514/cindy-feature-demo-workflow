@@ -1,0 +1,12 @@
+node_modules/
+.runtime/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+projects/
+output/
+*.mp4
+*.zip
+!dist/cindy-feature-demo.zip
