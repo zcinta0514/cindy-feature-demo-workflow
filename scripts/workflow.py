@@ -36,7 +36,7 @@ def init(project):
         (project / name).mkdir()
     shutil.copy2(ROOT / 'templates/production-script.json', project / 'production-script.json')
     write_json(project / 'demo.config.json', {
-        'schemaVersion': 1, 'packageVersion': '1.0.0',
+        'schemaVersion': 1, 'packageVersion': '2.0.0',
         'videoDefaults': {'width': 3840, 'height': 2880, 'fps': 60},
         'delivery': {'root': 'deliveries', 'automaticDeliveryActive': True,
                      'readyDirectory': '01_可选成片', 'heldDirectory': '02_待处理',

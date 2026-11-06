@@ -1,0 +1,194 @@
+[
+  {
+    "id": "plan-4x3",
+    "ready": true,
+    "errors": [],
+    "missing": [],
+    "blocked": [],
+    "state": {
+      "textLength": 347,
+      "preview": true,
+      "visual": true,
+      "ios": false,
+      "host": false
+    },
+    "status": "passed",
+    "scope": "load/fonts/local-resources only; not full replay or subjective acceptance"
+  },
+  {
+    "id": "collaboration-en",
+    "ready": true,
+    "errors": [],
+    "missing": [],
+    "blocked": [],
+    "state": {
+      "textLength": 345,
+      "preview": true,
+      "visual": true,
+      "ios": false,
+      "host": false
+    },
+    "status": "passed",
+    "scope": "load/fonts/local-resources only; not full replay or subjective acceptance"
+  },
+  {
+    "id": "collaboration-zh",
+    "ready": true,
+    "errors": [],
+    "missing": [],
+    "blocked": [],
+    "state": {
+      "textLength": 256,
+      "preview": true,
+      "visual": true,
+      "ios": false,
+      "host": false
+    },
+    "status": "passed",
+    "scope": "load/fonts/local-resources only; not full replay or subjective acceptance"
+  },
+  {
+    "id": "mail-en",
+    "ready": true,
+    "errors": [],
+    "missing": [],
+    "blocked": [],
+    "state": {
+      "textLength": 483,
+      "preview": true,
+      "visual": false,
+      "ios": false,
+      "host": false
+    },
+    "status": "passed",
+    "scope": "load/fonts/local-resources only; not full replay or subjective acceptance"
+  },
+  {
+    "id": "mail-zh",
+    "ready": true,
+    "errors": [],
+    "missing": [],
+    "blocked": [],
+    "state": {
+      "textLength": 251,
+      "preview": true,
+      "visual": false,
+      "ios": false,
+      "host": false
+    },
+    "status": "passed",
+    "scope": "load/fonts/local-resources only; not full replay or subjective acceptance"
+  },
+  {
+    "id": "settings-zh",
+    "ready": true,
+    "errors": [],
+    "missing": [],
+    "blocked": [],
+    "state": {
+      "textLength": 238,
+      "preview": true,
+      "visual": false,
+      "ios": false,
+      "host": false
+    },
+    "status": "passed",
+    "scope": "load/fonts/local-resources only; not full replay or subjective acceptance"
+  },
+  {
+    "id": "visuals-en",
+    "ready": true,
+    "errors": [],
+    "missing": [],
+    "blocked": [],
+    "state": {
+      "textLength": 3869,
+      "preview": true,
+      "visual": true,
+      "ios": false,
+      "host": false
+    },
+    "status": "passed",
+    "scope": "load/fonts/local-resources only; not full replay or subjective acceptance"
+  },
+  {
+    "id": "visuals-zh",
+    "ready": true,
+    "errors": [],
+    "missing": [],
+    "blocked": [],
+    "state": {
+      "textLength": 1505,
+      "preview": true,
+      "visual": true,
+      "ios": false,
+      "host": false
+    },
+    "status": "passed",
+    "scope": "load/fonts/local-resources only; not full replay or subjective acceptance"
+  },
+  {
+    "id": "extra-directory-en",
+    "ready": true,
+    "errors": [],
+    "missing": [],
+    "blocked": [],
+    "state": {
+      "textLength": 679,
+      "preview": false,
+      "visual": false,
+      "ios": false,
+      "host": true
+    },
+    "status": "passed",
+    "scope": "load/fonts/local-resources only; not full replay or subjective acceptance"
+  },
+  {
+    "id": "extra-directory-zh",
+    "ready": true,
+    "errors": [],
+    "missing": [],
+    "blocked": [],
+    "state": {
+      "textLength": 285,
+      "preview": false,
+      "visual": false,
+      "ios": false,
+      "host": true
+    },
+    "status": "passed",
+    "scope": "load/fonts/local-resources only; not full replay or subjective acceptance"
+  },
+  {
+    "id": "ios-framework",
+    "ready": true,
+    "errors": [],
+    "missing": [],
+    "blocked": [],
+    "state": {
+      "textLength": 696,
+      "preview": false,
+      "visual": false,
+      "ios": true,
+      "host": false
+    },
+    "status": "passed",
+    "scope": "load/fonts/local-resources only; not full replay or subjective acceptance"
+  },
+  {
+    "id": "ios-widgets",
+    "ready": true,
+    "errors": [],
+    "missing": [],
+    "blocked": [],
+    "state": {
+      "textLength": 130,
+      "preview": false,
+      "visual": false,
+      "ios": false,
+      "host": false
+    },
+    "status": "passed",
+    "scope": "load/fonts/local-resources only; not full replay or subjective acceptance"
+  }
+]

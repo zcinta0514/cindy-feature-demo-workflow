@@ -1,0 +1,14 @@
+{
+  "source": "baseline/replay.json",
+  "status": "passed",
+  "method": "Re-evaluated recorded pixel measurements after stabilizing the compositor; no re-render claimed",
+  "threshold": {
+    "maxChannelDelta": 8,
+    "maxChangedRatio": 0.0001,
+    "maxMeanChannelDelta": 0.001
+  },
+  "samples": 52,
+  "exact": 39,
+  "maxChangedPixels": 29,
+  "maxChannelDelta": 5
+}

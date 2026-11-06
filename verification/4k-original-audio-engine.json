@@ -1,0 +1,20 @@
+{
+  "status": "mixed",
+  "numpy": "2.0.2",
+  "sourceScripts": [
+    {
+      "source": "interactive-preview/plan-mode-v2/score.py",
+      "sha256": "e6a390403aface20569d6735ce3518b23b89334fc26d6c522ece80b9a7be9d32",
+      "adaptation": "output path only"
+    },
+    {
+      "source": "interactive-preview/plan-mode-v2/mix-audio.py",
+      "sha256": "cee5cf18ab99ba23c87eaf0c5af2a5d63841938e73fc46808723148bdafb8e82",
+      "adaptation": "output path only"
+    }
+  ],
+  "music": "original seed 471142026, 114 BPM, regenerated to the actual film duration",
+  "events": "original tactile sound algorithm; current replay frame-aligned cues",
+  "videoStream": "copied",
+  "humanListening": "not performed"
+}

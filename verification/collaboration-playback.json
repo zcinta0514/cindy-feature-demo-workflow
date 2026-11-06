@@ -1,0 +1,48 @@
+[
+  {
+    "id": "collaboration-en",
+    "ready": true,
+    "errors": [],
+    "missing": [],
+    "blocked": [],
+    "state": {
+      "textLength": 2077,
+      "preview": true,
+      "visual": true,
+      "ios": false,
+      "host": false
+    },
+    "replay": {
+      "index": 41,
+      "complete": true,
+      "error": "",
+      "playing": false,
+      "time": 86.52800000000225
+    },
+    "status": "passed",
+    "scope": "full interactive playback; not encoded-film or subjective acceptance"
+  },
+  {
+    "id": "collaboration-zh",
+    "ready": true,
+    "errors": [],
+    "missing": [],
+    "blocked": [],
+    "state": {
+      "textLength": 971,
+      "preview": true,
+      "visual": true,
+      "ios": false,
+      "host": false
+    },
+    "replay": {
+      "index": 41,
+      "complete": true,
+      "error": "",
+      "playing": false,
+      "time": 83.02400000000108
+    },
+    "status": "passed",
+    "scope": "full interactive playback; not encoded-film or subjective acceptance"
+  }
+]

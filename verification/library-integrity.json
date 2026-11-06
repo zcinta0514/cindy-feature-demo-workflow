@@ -1,0 +1,10 @@
+{
+  "files": 8527,
+  "uniqueObjects": 1368,
+  "sourceCommit": "ac785430449042f120a296b881a25ae52333f1e1",
+  "sourceArchiveSHA256": "df2c35665f2e83027c9a21314f38a67c12854b2ff8b225bb23c28bfa4a6de41a",
+  "restore": "passed again from the final small installer plus offline resources, all 8527 files and public source",
+  "publicSourceExtraction": "passed",
+  "credentialPatternScan": "passed (private key/GitHub token/API key/author-machine paths; not a universal secret detector)",
+  "originalPrivateStateIncluded": false
+}

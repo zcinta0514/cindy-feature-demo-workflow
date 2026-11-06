@@ -1,0 +1,322 @@
+{
+  "status": "passed",
+  "threshold": {
+    "ssim": 0.995
+  },
+  "timelineIdentical": true,
+  "frames": [
+    {
+      "frame": 0,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 120,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 383,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 600,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 743,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 957,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 1081,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 1089,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 1124,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 1131,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 1139,
+      "identical": false,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 1200,
+      "identical": false,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 1412,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 1422,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 1513,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 1697,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 1800,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 1809,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 1928,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 2048,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 2059,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 2400,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 2439,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 2447,
+      "identical": false,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 2478,
+      "identical": false,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 2486,
+      "identical": false,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 2494,
+      "identical": false,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 2816,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 2827,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 3000,
+      "identical": false,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 3483,
+      "identical": false,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 3600,
+      "identical": false,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 3618,
+      "identical": false,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 3628,
+      "identical": false,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 3699,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 3707,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 3789,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 3796,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 3993,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 4052,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 4127,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 4137,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 4200,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 4236,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 4349,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 4463,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 4590,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 4782,
+      "identical": false,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 4800,
+      "identical": false,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 4926,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 5078,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    },
+    {
+      "frame": 5301,
+      "identical": true,
+      "ssim": 1.0,
+      "passed": true
+    }
+  ],
+  "scope": "同一标准工程的动作时间线与抽样画面相似度；不替代完整运动/听审，不自动放行新片"
+}

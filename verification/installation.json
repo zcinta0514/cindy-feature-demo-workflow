@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "method": "Extract small Skill ZIP into a separate directory; initialize a fresh project; supply the full resource ZIP offline; verify SHA256 and restore baseline",
+  "restoredBaselineFiles": 746,
+  "separateOriginalProject": true,
+  "dependencyInstall": "fresh npm ci and project-local Chromium download",
+  "fullLibraryRestoreFiles": 8527,
+  "productSourceExtraction": "passed",
+  "tests": 9,
+  "receiverMacTest": "not performed",
+  "hostLimitsChecked": {
+    "source": "apps/desktop/src/main/skillhub/importLocalSkill.ts at v0.1.125",
+    "zipMaxBytes": 209715200,
+    "uncompressedMaxBytes": 524288000,
+    "managedSkillBudgetBytes": 67108864
+  },
+  "finalFullInstall": {
+    "status": "passed",
+    "libraryFiles": 8527,
+    "productSource": true,
+    "source": "small installer ZIP + verified offline resource ZIP",
+    "project": "separate fresh directory"
+  }
+}

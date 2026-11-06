@@ -1,0 +1,17 @@
+{
+  "playwright": "1.60.0",
+  "chromium": "148.0.7778.96",
+  "browserRevision": "1223",
+  "rendering": "HTML source-component replay at 60 fps",
+  "comparisonViewport": [
+    1440,
+    1080
+  ],
+  "output": [
+    3840,
+    2880
+  ],
+  "platformTested": "macOS arm64",
+  "otherMachines": "recipient must run baseline verification",
+  "productSourceCommit": "ac785430449042f120a296b881a25ae52333f1e1"
+}

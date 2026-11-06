@@ -45,6 +45,61 @@ class PortabilityTests(unittest.TestCase):
             self.workflow.init(self.project)
         self.assertEqual(existing.read_text(), 'original')
 
+    def test_library_restore_rejects_tampering_and_preserves_existing_work(self):
+        import gzip
+        import hashlib
+        lib = module('library')
+        fixture = self.base / 'fixture'
+        (fixture / 'library/objects').mkdir(parents=True)
+        data = b'<!doctype html><title>portable native fixture</title>'
+        digest = hashlib.sha256(data).hexdigest()
+        (fixture / 'library/catalog.json').write_text(json.dumps({'cases':[{'id':'sample','root':'example'}]}))
+        (fixture / 'library/manifest.json').write_text(json.dumps({'files':{'example/index.html':{'sha256':digest,'bytes':len(data)}}}))
+        obj = fixture / 'library/objects' / (digest + '.gz')
+        obj.write_bytes(gzip.compress(b'corrupted'))
+        lib.ROOT = fixture
+        self.workflow.init(self.project)
+        with self.assertRaises(ValueError):lib.restore(self.project, 'sample')
+        self.assertFalse((self.project/'production-library').exists())
+        obj.write_bytes(gzip.compress(data))
+        self.assertEqual(lib.restore(self.project, 'sample')['status'], 'restored')
+        self.assertEqual((self.project/'production-library/example/index.html').read_bytes(), data)
+        with self.assertRaises(ValueError):lib.restore(self.project, 'sample')
+        with self.assertRaises(ValueError):lib.safe(self.project,'../outside')
+
+    def test_library_catalog_and_source_parts_are_complete(self):
+        import hashlib
+        manifest=json.loads((ROOT/'library/manifest.json').read_text())
+        catalog=json.loads((ROOT/'library/catalog.json').read_text())
+        for case in catalog['cases']:
+            self.assertIn(case['entry'],manifest['files'])
+        for name,info in manifest['files'].items():
+            self.assertNotIn('..',Path(name).parts)
+            if (ROOT/'library/objects').exists():self.assertTrue((ROOT/'library/objects'/(info['sha256']+'.gz')).is_file())
+        h=hashlib.sha256()
+        if (ROOT/manifest['sourceArchive']['parts'][0]).exists():
+            for part in manifest['sourceArchive']['parts']:h.update((ROOT/part).read_bytes())
+            self.assertEqual(h.hexdigest(),manifest['sourceArchive']['sha256'])
+        else:
+            payload=json.loads((ROOT/'library/payload.json').read_text())
+            self.assertRegex(payload['sha256'],r'^[0-9a-f]{64}$')
+
+    def test_offline_resource_bundle_is_verified_before_restore(self):
+        import gzip, hashlib, zipfile
+        lib=module('library');fixture=self.base/'small-skill';(fixture/'library').mkdir(parents=True)
+        data=b'<!doctype html><title>offline</title>';h=hashlib.sha256(data).hexdigest();packed=gzip.compress(data)
+        (fixture/'library/catalog.json').write_text(json.dumps({'cases':[{'id':'offline','root':'example'}]}))
+        (fixture/'library/manifest.json').write_text(json.dumps({'files':{'example/index.html':{'sha256':h,'bytes':len(data)}}}))
+        resource=self.base/'resources.zip'
+        with zipfile.ZipFile(resource,'w') as z:z.writestr('library/objects/'+h+'.gz',packed)
+        payload={'sha256':hashlib.sha256(resource.read_bytes()).hexdigest(),'bytes':resource.stat().st_size,'uncompressedBytes':len(packed)}
+        (fixture/'library/payload.json').write_text(json.dumps(payload));lib.ROOT=fixture
+        self.workflow.init(self.project)
+        result=lib.restore(self.project,'offline',resources=resource)
+        self.assertEqual(result['status'],'restored')
+        self.assertEqual((self.project/'production-library/example/index.html').read_bytes(),data)
+        self.assertTrue((self.project/'.workflow-resources/payload-sha256.txt').is_file())
+
     def test_relative_delivery_root_and_missing_qa_are_held(self):
         self.workflow.init(self.project)
         manifest = self.project / 'output/test.json'

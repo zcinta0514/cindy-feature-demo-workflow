@@ -1,0 +1,104 @@
+{
+  "version": "2.0.0",
+  "baseline": "plan-4x3",
+  "cases": [
+    {
+      "id": "plan-4x3",
+      "title": "计划模式·当前4:3镜头基准",
+      "root": "previews/original-workflow-4x3-v6",
+      "entry": "previews/original-workflow-4x3-v6/index.html",
+      "language": "en",
+      "status": "current-baseline"
+    },
+    {
+      "id": "collaboration-en",
+      "title": "协作·英文",
+      "root": "deliverables/collaboration-v3",
+      "entry": "deliverables/collaboration-v3/replay.html",
+      "language": "en",
+      "status": "historical-16x9"
+    },
+    {
+      "id": "collaboration-zh",
+      "title": "协作·中文",
+      "root": "deliverables/collaboration-v3-zh",
+      "entry": "deliverables/collaboration-v3-zh/replay.html",
+      "language": "zh-CN",
+      "status": "historical-16x9"
+    },
+    {
+      "id": "mail-en",
+      "title": "邮件·英文",
+      "root": "mac-demos/mail-compose-en-v5",
+      "entry": "mac-demos/mail-compose-en-v5/index.html",
+      "language": "en",
+      "status": "historical-16x9"
+    },
+    {
+      "id": "mail-zh",
+      "title": "邮件·中文",
+      "root": "mac-demos/mail-compose-zh-v5",
+      "entry": "mac-demos/mail-compose-zh-v5/index.html",
+      "language": "zh-CN",
+      "status": "historical-16x9"
+    },
+    {
+      "id": "settings-zh",
+      "title": "文言界面",
+      "root": "mac-demos/language-classical-zh-v2",
+      "entry": "mac-demos/language-classical-zh-v2/index.html",
+      "language": "zh-CN",
+      "status": "historical-16x9"
+    },
+    {
+      "id": "visuals-en",
+      "title": "可视化组件·英文",
+      "root": "deliverables/p47-native-visuals-video-v2",
+      "entry": "deliverables/p47-native-visuals-video-v2/index.html",
+      "language": "en",
+      "status": "historical-16x9"
+    },
+    {
+      "id": "visuals-zh",
+      "title": "可视化组件·中文",
+      "root": "deliverables/p47-native-visuals-video-zh-v1",
+      "entry": "deliverables/p47-native-visuals-video-zh-v1/index.html",
+      "language": "zh-CN",
+      "status": "historical-16x9"
+    },
+    {
+      "id": "extra-directory-en",
+      "title": "额外目录·英文",
+      "root": "videos/p54-extra-directory-v2/web",
+      "entry": "videos/p54-extra-directory-v2/web/preview-en.html",
+      "language": "en",
+      "status": "historical-16x9",
+      "previewScope": "Native component host; full film choreography is in videos/p54-extra-directory-v2/capture.mjs"
+    },
+    {
+      "id": "extra-directory-zh",
+      "title": "额外目录·中文",
+      "root": "videos/p54-extra-directory-v2/web",
+      "entry": "videos/p54-extra-directory-v2/web/preview-zh-CN.html",
+      "language": "zh-CN",
+      "status": "historical-16x9",
+      "previewScope": "Native component host; full film choreography is in videos/p54-extra-directory-v2/capture.mjs"
+    },
+    {
+      "id": "ios-framework",
+      "title": "iOS组件框架·中英",
+      "root": "interactive-preview/ios-iphone-v2/dist",
+      "entry": "interactive-preview/ios-iphone-v2/dist/index.html",
+      "language": "en/zh-CN",
+      "status": "component-framework"
+    },
+    {
+      "id": "ios-widgets",
+      "title": "iOS小组件·中英",
+      "root": "videos/ios-home-widgets-v2",
+      "entry": "videos/ios-home-widgets-v2/index.html",
+      "language": "en/zh-CN",
+      "status": "current-4x3"
+    }
+  ]
+}
