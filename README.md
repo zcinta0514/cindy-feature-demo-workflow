@@ -33,6 +33,8 @@ Cindy 会建立独立工程、恢复制作库、检查依赖并执行任务。�
 
 资源按摘要去重压缩，使用时自动恢复原目录。浏览入口见 [案例目录](library/catalog.json)，具体命令和限制见 [复现说明](references/reproduction.md)。
 
+**成品视频**：19 条实际出片（中英，4K60，共 3.37 GB）在 [films-4k60 发布页](https://github.com/zcinta0514/cindy-feature-demo-workflow/releases/tag/films-4k60) 直接下载，索引与 SHA256 见 [films/](films/README.md)。
+
 ## 与作者本地的区别
 
 核心可复用实现已带入；作者账号、私人记录、自动任务和发送状态不共享。依赖在接收方首次安装，交付默认放新工程的 deliveries。历史渲染缓存和旧 MP4 不全部复制，保留可复用源码/资源，当前基准参考影片在 Release。新功能重建时需按固定产品锁文件准备开发依赖；历史入口不代表本版全部重新出片验收。

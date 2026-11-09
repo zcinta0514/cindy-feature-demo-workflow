@@ -1,0 +1,464 @@
+{
+  "formatVersion": 1,
+  "releaseTag": "films-4k60",
+  "generatedAt": "2026-11-08",
+  "scope": "Latest accepted generation per case; superseded versions, silent masters, previews and repair attempts excluded.",
+  "films": [
+    {
+      "asset": "Cindy-Plan-4x3-Reference-4K60.mp4",
+      "case": "plan-4x3",
+      "language": "en",
+      "version": "v6",
+      "title": {
+        "zh-CN": "计划模式 · 当前 4:3 镜头基准",
+        "en": "Plan mode · 4:3 baseline"
+      },
+      "width": 3840,
+      "height": 2880,
+      "fps": "60/1",
+      "durationSeconds": 88.367,
+      "videoCodec": "h264",
+      "pixFmt": "yuv420p",
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ],
+      "bytes": 41502232,
+      "sha256": "333f322f924b6ed52546410057748c691c10bb6a09141a2e0682315ef740ffb2",
+      "localPath": "/Users/xindong/Documents/Cindy 设计学习html/deliverables/cindy-feature-demo-share-v2/verification/4k-render/Cindy-Plan-4x3-Reference-4K60.mp4"
+    },
+    {
+      "asset": "Cindy-Collaboration-v3-EN-4K60.mp4",
+      "case": "collaboration",
+      "language": "en",
+      "version": "v3",
+      "title": {
+        "zh-CN": "多会话协作 · 英文",
+        "en": "Multi-session collaboration"
+      },
+      "width": 3840,
+      "height": 2160,
+      "fps": "60/1",
+      "durationSeconds": 94.567,
+      "videoCodec": "h264",
+      "pixFmt": "yuv420p",
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ],
+      "bytes": 265439404,
+      "sha256": "3c4c95305def424759b1415cfbfee82244ea2995acbc2e1cfd8cc6c3a84a93e0",
+      "localPath": "/Users/xindong/Documents/Cindy 设计学习html/deliverables/collaboration-v3/Cindy-Collaboration-4K60.mp4"
+    },
+    {
+      "asset": "Cindy-Collaboration-v3-ZH-4K60.mp4",
+      "case": "collaboration",
+      "language": "zh-CN",
+      "version": "v3",
+      "title": {
+        "zh-CN": "多会话协作 · 中文",
+        "en": "Multi-session collaboration (Chinese)"
+      },
+      "width": 3840,
+      "height": 2160,
+      "fps": "60/1",
+      "durationSeconds": 91.733,
+      "videoCodec": "h264",
+      "pixFmt": "yuv420p",
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ],
+      "bytes": 244977400,
+      "sha256": "6fcf1fed1a2780596ad8d170f7ccaaadf5407999a8257178be6ac0d39cc11ad7",
+      "localPath": "/Users/xindong/Documents/Cindy 设计学习html/deliverables/collaboration-v3-zh/Cindy-Collaboration-ZH-4K60.mp4"
+    },
+    {
+      "asset": "Cindy-Mail-v5-EN-4K60.mp4",
+      "case": "mail",
+      "language": "en",
+      "version": "v5",
+      "title": {
+        "zh-CN": "邮件编辑与发送 · 英文",
+        "en": "Mail compose and send"
+      },
+      "width": 3840,
+      "height": 2160,
+      "fps": "60/1",
+      "durationSeconds": 41.233,
+      "videoCodec": "h264",
+      "pixFmt": "yuv420p",
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ],
+      "bytes": 24362963,
+      "sha256": "e19ff44fec0bd6f233a785e2560e0036eb6696fdaebd9ab08f6fdc3a9a617172",
+      "localPath": "/Users/xindong/Documents/Cindy 设计学习html/mac-demos/Cindy-Mail-English-Mac-v5-4K60.mp4"
+    },
+    {
+      "asset": "Cindy-Mail-v5-ZH-4K60.mp4",
+      "case": "mail",
+      "language": "zh-CN",
+      "version": "v5",
+      "title": {
+        "zh-CN": "邮件编辑与发送 · 中文",
+        "en": "Mail compose and send (Chinese)"
+      },
+      "width": 3840,
+      "height": 2160,
+      "fps": "60/1",
+      "durationSeconds": 41.733,
+      "videoCodec": "h264",
+      "pixFmt": "yuv420p",
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ],
+      "bytes": 23195049,
+      "sha256": "22128b4e716edf66c114dda7773ebcb1f0a2cc3d2ba46ffcba59ead2509cda36",
+      "localPath": "/Users/xindong/Documents/Cindy 设计学习html/mac-demos/Cindy-Mail-Chinese-Mac-v5-4K60.mp4"
+    },
+    {
+      "asset": "Cindy-Settings-Classical-ZH-v9-4K60.mp4",
+      "case": "settings",
+      "language": "zh-CN",
+      "version": "v9",
+      "title": {
+        "zh-CN": "文言界面 · 中文",
+        "en": "Classical Chinese UI"
+      },
+      "width": 3840,
+      "height": 2160,
+      "fps": "60/1",
+      "durationSeconds": 44.567,
+      "videoCodec": "h264",
+      "pixFmt": "yuv420p",
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ],
+      "bytes": 22509235,
+      "sha256": "76322c8a5eeccdc659a398541b8f4c71ef7af388048ffbf10c2546b3185bdc8c",
+      "localPath": "/Users/xindong/Documents/Cindy 设计学习html/deliverables/cindy-classical-zh-v9-uhd/Cindy-Classical-Chinese-v9-4K60.mp4"
+    },
+    {
+      "asset": "Cindy-Visuals-v2-EN-4K60.mp4",
+      "case": "visuals",
+      "language": "en",
+      "version": "v2",
+      "title": {
+        "zh-CN": "可视化组件与紧凑字幕 · 英文",
+        "en": "Native visuals with compact captions"
+      },
+      "width": 3840,
+      "height": 2160,
+      "fps": "60/1",
+      "durationSeconds": 110.25,
+      "videoCodec": "h264",
+      "pixFmt": "yuv420p",
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ],
+      "bytes": 310518940,
+      "sha256": "8e432c55d87f4221bbc2348db412df09cb7d8a58f10a8fa171424eb03c7bfd0c",
+      "localPath": "/Users/xindong/Documents/Cindy 设计学习html/deliverables/p47-native-visuals-video-v2/Cindy-P47-Compact-Captions-110BPM-4K60.mp4"
+    },
+    {
+      "asset": "Cindy-Visuals-v1-ZH-4K60.mp4",
+      "case": "visuals",
+      "language": "zh-CN",
+      "version": "v1",
+      "title": {
+        "zh-CN": "可视化组件 · 中文",
+        "en": "Native visuals (Chinese)"
+      },
+      "width": 3840,
+      "height": 2160,
+      "fps": "60/1",
+      "durationSeconds": 107.2,
+      "videoCodec": "h264",
+      "pixFmt": "yuv420p",
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ],
+      "bytes": 292488918,
+      "sha256": "6251eef9cd36fc978b099452b49377673ee0ac6ffca907ffd6feb209e76fe77a",
+      "localPath": "/Users/xindong/Documents/Cindy 设计学习html/deliverables/p47-native-visuals-video-zh-v1/Cindy-P47-ZH-Captions-110BPM-4K60.mp4"
+    },
+    {
+      "asset": "Cindy-P52-Plugin-Share-v1-EN-4K60.mp4",
+      "case": "p52",
+      "language": "en",
+      "version": "v1",
+      "title": {
+        "zh-CN": "本地插件固定版本分享 · 英文",
+        "en": "Share a local plugin at a pinned version"
+      },
+      "width": 3840,
+      "height": 2160,
+      "fps": "60/1",
+      "durationSeconds": 84.933,
+      "videoCodec": "h264",
+      "pixFmt": "yuv420p",
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ],
+      "bytes": 193146186,
+      "sha256": "5bcdcde9b258b367301cfb590e08bd7d6e238f000205f0559a5eda07853199e6",
+      "localPath": "/Users/xindong/Documents/Cindy 设计学习html/deliverables/p52-plugin-share-v1/en/Cindy-P52-EN-4K60.mp4"
+    },
+    {
+      "asset": "Cindy-P52-Plugin-Share-v1-ZH-4K60.mp4",
+      "case": "p52",
+      "language": "zh-CN",
+      "version": "v1",
+      "title": {
+        "zh-CN": "本地插件固定版本分享 · 中文",
+        "en": "Share a local plugin at a pinned version (Chinese)"
+      },
+      "width": 3840,
+      "height": 2160,
+      "fps": "60/1",
+      "durationSeconds": 82.8,
+      "videoCodec": "h264",
+      "pixFmt": "yuv420p",
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ],
+      "bytes": 153346789,
+      "sha256": "5cc935cc9ff75a21ad6180f531120904c2f09d75dd15c3ffc44071bacf92d699",
+      "localPath": "/Users/xindong/Documents/Cindy 设计学习html/deliverables/p52-plugin-share-v1/zh/Cindy-P52-ZH-4K60.mp4"
+    },
+    {
+      "asset": "Cindy-P53-Simulator-v2-EN-4K60.mp4",
+      "case": "p53",
+      "language": "en",
+      "version": "v2",
+      "title": {
+        "zh-CN": "在手机上看任务里的模拟器 · 英文",
+        "en": "Watch the simulator from your phone"
+      },
+      "width": 3840,
+      "height": 2880,
+      "fps": "60/1",
+      "durationSeconds": 77.067,
+      "videoCodec": "hevc",
+      "pixFmt": "yuv420p",
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ],
+      "bytes": 215448451,
+      "sha256": "7da0b0dd3d10eed8215a4a157ff41e4ab6ef3a0af9002255bbf22a880c5e8179",
+      "localPath": "/Users/xindong/Documents/Cindy 设计学习html/deliverables/p53-mobile-simulator-v2/Cindy-P53-EN-4K60.mp4"
+    },
+    {
+      "asset": "Cindy-P53-Simulator-v2-ZH-4K60.mp4",
+      "case": "p53",
+      "language": "zh-CN",
+      "version": "v2",
+      "title": {
+        "zh-CN": "在手机上看任务里的模拟器 · 中文",
+        "en": "Watch the simulator from your phone (Chinese)"
+      },
+      "width": 3840,
+      "height": 2880,
+      "fps": "60/1",
+      "durationSeconds": 73.067,
+      "videoCodec": "hevc",
+      "pixFmt": "yuv420p",
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ],
+      "bytes": 204813790,
+      "sha256": "bd9d65336ab2516e34663310d58e4796d36c8f6c426792346137d5f4ca3bcb52",
+      "localPath": "/Users/xindong/Documents/Cindy 设计学习html/deliverables/p53-mobile-simulator-v2/Cindy-P53-ZH-4K60.mp4"
+    },
+    {
+      "asset": "Cindy-P54-Extra-Directory-v2-EN-4K60.mp4",
+      "case": "p54",
+      "language": "en",
+      "version": "v2",
+      "title": {
+        "zh-CN": "给当前任务添加目录 · 英文",
+        "en": "Add a folder to the current task"
+      },
+      "width": 3840,
+      "height": 2160,
+      "fps": "60/1",
+      "durationSeconds": 39.367,
+      "videoCodec": "h264",
+      "pixFmt": "yuv420p",
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ],
+      "bytes": 129067501,
+      "sha256": "c44860ddc77820dd10f9da41a54cb39dc6b90575bccbc339f042139aab333041",
+      "localPath": "/Users/xindong/Documents/Cindy 设计学习html/deliverables/p54-extra-directory-v2/en/Cindy-Extra-Directory-4K60.mp4"
+    },
+    {
+      "asset": "Cindy-P54-Extra-Directory-v2-ZH-4K60.mp4",
+      "case": "p54",
+      "language": "zh-CN",
+      "version": "v2",
+      "title": {
+        "zh-CN": "给当前任务添加目录 · 中文",
+        "en": "Add a folder to the current task (Chinese)"
+      },
+      "width": 3840,
+      "height": 2160,
+      "fps": "60/1",
+      "durationSeconds": 37.75,
+      "videoCodec": "h264",
+      "pixFmt": "yuv420p",
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ],
+      "bytes": 120142092,
+      "sha256": "fa3f1f34c27844c1d82a6753a536ea4054143dea99dd5e7a832eefe5609ec900",
+      "localPath": "/Users/xindong/Documents/Cindy 设计学习html/deliverables/p54-extra-directory-v2/zh-CN/Cindy-Extra-Directory-4K60.mp4"
+    },
+    {
+      "asset": "Cindy-iOS-Home-Widgets-v3-EN-4K60.mp4",
+      "case": "ios-home-widgets",
+      "language": "en",
+      "version": "v3",
+      "title": {
+        "zh-CN": "iOS 主屏幕小组件 · 英文",
+        "en": "iOS Home Screen widgets"
+      },
+      "width": 3840,
+      "height": 2880,
+      "fps": "60/1",
+      "durationSeconds": 52.467,
+      "videoCodec": "hevc",
+      "pixFmt": "yuv420p",
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ],
+      "bytes": 209823726,
+      "sha256": "38f1129b50ce123b7c22b5afe84c9481153ff2bd0c1b761e10ef34d98c45417a",
+      "localPath": "/Users/xindong/Documents/Cindy 设计学习html/deliverables/ios-home-widgets-v3/en/Cindy-Home-Widgets-EN-V3-4K60.mp4"
+    },
+    {
+      "asset": "Cindy-iOS-Home-Widgets-v3-ZH-4K60.mp4",
+      "case": "ios-home-widgets",
+      "language": "zh-CN",
+      "version": "v3",
+      "title": {
+        "zh-CN": "iOS 主屏幕小组件 · 中文",
+        "en": "iOS Home Screen widgets (Chinese)"
+      },
+      "width": 3840,
+      "height": 2880,
+      "fps": "60/1",
+      "durationSeconds": 50.333,
+      "videoCodec": "hevc",
+      "pixFmt": "yuv420p",
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ],
+      "bytes": 205424482,
+      "sha256": "11eebbfd71ebe5f2f8d90b1e44a95d2c68f6d8fe81367736a3b1f4d8e9250504",
+      "localPath": "/Users/xindong/Documents/Cindy 设计学习html/deliverables/ios-home-widgets-v3/zh/Cindy-Home-Widgets-ZH-V3-4K60.mp4"
+    },
+    {
+      "asset": "Cindy-OSS-Maintainer-v1-4K60.mp4",
+      "case": "oss-maintainer",
+      "language": "en",
+      "version": "v1",
+      "title": {
+        "zh-CN": "开源项目连接式任务 · 英文",
+        "en": "Connected tasks for an open-source repo"
+      },
+      "width": 3840,
+      "height": 2160,
+      "fps": "60/1",
+      "durationSeconds": 79.033,
+      "videoCodec": "h264",
+      "pixFmt": "yuv420p",
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ],
+      "bytes": 239737879,
+      "sha256": "a19d09c3cf27077f6f9d59cc780e6a500334b4f107335a967e1e9e652fe8dc40",
+      "localPath": "/Users/xindong/Documents/Cindy 设计学习html/deliverables/oss-maintainer-v1/Cindy-Open-Source-Connected-Tasks-4K60.mp4"
+    },
+    {
+      "asset": "Cindy-Teammates-v2-EN-4K60.mp4",
+      "case": "teammates",
+      "language": "en",
+      "version": "v2",
+      "title": {
+        "zh-CN": "队友与任务概览 · 英文",
+        "en": "Teammates and task overview"
+      },
+      "width": 3840,
+      "height": 2880,
+      "fps": "60/1",
+      "durationSeconds": 128.4,
+      "videoCodec": "hevc",
+      "pixFmt": "yuv420p",
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ],
+      "bytes": 236540430,
+      "sha256": "9e20ea7ddc6d2bae07e82d59782769a631aeeec74fadcba59760cf50c56632a1",
+      "localPath": "/Users/xindong/Documents/Cindy 设计学习html/deliverables/teammates-overview-v2/en/Cindy-Teammates-EN-4K60.mp4"
+    },
+    {
+      "asset": "Cindy-Teammates-v2-ZH-4K60.mp4",
+      "case": "teammates",
+      "language": "zh-CN",
+      "version": "v2",
+      "title": {
+        "zh-CN": "队友与任务概览 · 中文",
+        "en": "Teammates and task overview (Chinese)"
+      },
+      "width": 3840,
+      "height": 2880,
+      "fps": "60/1",
+      "durationSeconds": 126.4,
+      "videoCodec": "hevc",
+      "pixFmt": "yuv420p",
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ],
+      "bytes": 233197736,
+      "sha256": "17710f018f3b3c84e57c4d6e0ff43b102e0b711bc0fc61ae4caf0d76d416537d",
+      "localPath": "/Users/xindong/Documents/Cindy 设计学习html/deliverables/teammates-overview-v2/zh/Cindy-Teammates-ZH-4K60.mp4"
+    }
+  ]
+}
